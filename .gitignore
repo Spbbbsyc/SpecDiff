@@ -1,11 +1,53 @@
+# macOS
+.DS_Store
+
+# Python
 __pycache__/
-*.pyc
-*.pt
-*.png
-*.csv
-*.json
-*.npz
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# Training artifacts
+checkpoints/
 runs/
 outputs/
+results/
 generated/
 artifacts/
+
+# Large data files
+*.pt
+*.pth
+*.ckpt
+*.npz
+*.npy
+
+# Figures and reports generated during experiments
+*.png
+*.pdf
+
+# Tables and exported metrics
+*.csv
+
+# Local config
+.env
